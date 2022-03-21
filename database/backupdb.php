@@ -7,7 +7,7 @@ error_reporting(E_ALL);
  * Define database parameters here
  */
 define("DB_USER", 'root');
-define("DB_PASSWORD", 'P@ssw0rd1');
+define("DB_PASSWORD", '');
 define("DB_NAME", 'database');
 define("DB_HOST", 'localhost');
 define("OUTPUT_DIR", 'cache');
