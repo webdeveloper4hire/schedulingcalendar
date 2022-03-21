@@ -43,11 +43,3 @@ CREATE TABLE IF NOT EXISTS `sched_tb` (
   `others` varchar(1000) DEFAULT NULL,
   PRIMARY KEY (`sched_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
-
---
--- Dumping data for table `sched_tb`
---
-
-INSERT INTO `sched_tb` (`sched_id`, `approved`, `title`, `division`, `co_host_person`, `contact_email`, `start_date`, `start_time`, `end_date`, `end_time`, `meeting_id`, `password`, `others`) VALUES
-(1, 'YES', 'Training of Trainers on WildALERT System', 'Planning and Management Division', 'Milner M. Macarandang', 'mmmacarandang@gmail.com', '2021-03-11', '08:00', '2021-03-12', '14:00', NULL, NULL, NULL),
-(2, 'NO', 'SFFI Annual Convention ', 'NGP', 'Milner M. Macarandang', 'mmmacarandang@gmail.com', '2021-03-15', '09:00', '2021-03-16', '15:00', NULL, NULL, NULL);
